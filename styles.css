@@ -35,3 +35,26 @@ body {
     display: flex;
     gap: 30px;
 }
+
+.top-flex-container {
+    background-color: #1f2937;
+    border: 1px solid red;
+    display: flex;
+    color: white;
+    justify-content: center;
+    height: 32vh;
+}
+
+.left {
+    display: flex;
+    border: 1px solid white;
+    width: 50%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    border: 1px solid white;
+    width: 50%;
+}
