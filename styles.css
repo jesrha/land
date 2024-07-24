@@ -49,12 +49,48 @@ body {
     display: flex;
     border: 1px solid white;
     width: 50%;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.subtext {
+    width: 300px;
 }
 
 .right {
     display: flex;
     border: 1px solid white;
     width: 50%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+img {
+    width: 420px;
+    height: 240px;
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid orange;
+    height: 30vh;
+
+}
+
+.image-grid {
+    display: flex;
+    justify-content: center;
+    border: 1px solid green;
+    width: 1000px;
+    align-items: center;
+    gap: 50px;
+}
+
+.image-items {
+    border: 5px solid blue;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
 }
