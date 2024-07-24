@@ -1,5 +1,6 @@
 * {
     font-family: 'Roboto';
+    position: static;
 }
 
 body {
@@ -74,22 +75,32 @@ img {
 .information-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     border: 1px solid orange;
     height: 30vh;
+    flex-direction: column;
 
+}
+
+.image-grid-title {
+    color: #1f2937;
+    display: flex;
+    border: 1px solid black;
+    font-weight: 1000;
 }
 
 .image-grid {
     display: flex;
     justify-content: center;
     border: 1px solid green;
+    height: 213px;
     width: 1000px;
     align-items: center;
     gap: 50px;
 }
 
 .image-items {
-    border: 5px solid blue;
+    border: 5px solid #3882f6;
     border-radius: 20px;
     width: 200px;
     height: 200px;
